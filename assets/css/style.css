@@ -1,0 +1,46 @@
+body{ 
+    background:url("../images/background.png") no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+
+p {
+    font-size:25px;
+}
+
+.margin20 {
+    margin:10px;
+}
+
+.pokemonimg {
+    transition: all 0.5s;
+}
+
+.pokemonimg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.centerImage {
+    justify-self:center;
+}
+
+.text-attack {
+    color: white;
+}
+
+.musicBox {
+    position:fixed;
+    top:5%;
+    right:5%;
+}
+audio{
+    display:block;
+    width:200px;
+}
+
+.min-height-170{
+    min-height: 170px;
+}
